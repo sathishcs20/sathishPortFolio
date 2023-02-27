@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css?family=Pirata+One|Rubik:900');
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+
+a {
+  text-decoration: none;
+  color: inherit;
+ 
+}
+
+.head p {
+  font-weight: 700;
+  text-align: center;
+  font-size: 6em;
+  font-family: Hack, sans-serif;
+  text-transform: uppercase;
+  background: linear-gradient(90deg, #000, #fff, #000);
+  letter-spacing: 5px;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: shine 5s linear infinite;
+  position: relative;
+  margin-right: 100px;
+
+}
+
+@keyframes shine {
+  0% {
+    background-position-x: -400%;
+  }
+  100% {
+    background-position-x: 400%;
+  }
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    
+}
+
+.nav{
+  margin-top: 200PX;
+  margin-left: 1300px;
+    position: fixed;
+   
+    
+  }
+ .nav ul{
+
+  text-decoration: none;
+  list-style: none;
+  background-color: #000;
+  line-height: 60px;
+  padding: 1px;
+  height:300px;
+ 
+  
+ }
+ 
+ .nav ul :hover{
+   background-color:red;
+ }
+     li a{
+      
+      height: 10px;
+      color: white;
+      
+      text-decoration: none;
+      padding-left: 20px;
+      padding-right: 10px;
+   
+    
+
+    }
+    .head{
+        
+     
+        
+       background-image: url("bghead.jpg");
+        background-repeat: no-repeat;
+        height: 800px;
+        width: 1450px;
+      
+    }
+    
+    
+    
+
+        
+    .aboutFlex{
+      display: flex;
+      margin-left: 200px;
+    }
+    
+    .about .para{
+      
+      width: 700px;
+      margin-left: 100px;
+      color: white;
+      font-size: large;
+      justify-content: center;
+      line-height: 40px;
+
+    }
+  .eduimg{
+    display: flex;
+    margin-left: 90px;
+    
+  }
+  .eduimg img{
+    padding: 60px;
+    
+  }
+ .clg{
+  margin-left: 40px;
+  height: 250px;
+  width:300px;
+
+  background-image: url("bit.jpg");
+  
+ }
+  .th12
+  {
+    height: 250px;
+    width:300px;
+    background-image: url("tvs.jpg");
+    margin-left: 120px;
+   
+  }
+  .th10
+  {
+    
+    height: 250px;
+    width:300px;
+    margin-left: 120px;
+    
+   
+    background-image: url("10th.jpg");
+  }
+  .text span{
+      color: red;
+      font-size: large;
+  }
+  .text p{
+    line-height: 30px;
+    margin-left: 50px;
+   
+   
+  }
+
+  .text{
+    height: 233px;
+    width:300px;
+    opacity: 0;
+    color: white;
+    margin-bottom: 10px;
+  }
+.text:hover{
+  background-color: black;
+  
+  opacity: 1;
+}
+.skill img {
+  border-radius: 150px;
+  height:150px;
+  width: 150px;
+  padding: 30px;
+ 
+
+}
+
+.skillf1{
+  display: flex;
+  margin-left: 200px;
+}
+
+.skillf2{
+  display: flex;
+  margin-left: 200px;
+}
+.skill img:hover {
+  border-radius: 0;
+  height:170px;
+  width: 170px;
+ 
+}
+.vdb
+{
+  background-color: white;
+  height: 400px;
+}
+.vdbf
+{
+  display: flex;
+  flex-direction: row;
+}
+.vdbf video
+{
+  margin-left: 40px;
+  margin-top: 10px;
+}
+.vdbf div{
+   width:600px;
+   margin-left: 100px;
+   justify-content: center;
+   line-height: 35px;
+   margin-right: 90px;
+   margin-top: 10px;
+   font-size: large;
+
+}
+.chat .vdbf div{
+  color: white;
+  width:600px;
+  margin-left: 40px;
+  justify-content: center;
+  line-height: 35px;
+  margin-right: 90px;
+  margin-top: 10px;
+  font-size: large;
+
+}
+.chat .vdbf video{
+  margin-left: 50px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+
+}
+.contact{
+  background-color:black;
+  height: 200px;
+  margin-left: 200px;
+}
+.contactf{
+  display: flex;
+}
+
+.con img{
+  height: 20px;
+  border-radius: 100%;
+}
+.conf2{
+  display: flex;
+}
+.con div{
+  color: white;
+}
+.ping label{
+  color: white;
+}
+.con{
+  margin-left: 140px;
+}
+.conf2{
+  margin-left: 90px;
+}
+.conf2 img{
+  height: 60px;
+  border-radius: 100%;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+   
+.conf2 a:hover{
+  opacity: 50%;
+}
+button:hover{
+opacity: 50%;
+}
+#prof{
+  filter: grayscale(100%);
+}
+#prof:hover{
+  filter:grayscale(0%)
+}
+
+.skill{
+  background-color: #000;
+}
